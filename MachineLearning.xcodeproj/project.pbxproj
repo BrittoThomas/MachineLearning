@@ -7,17 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD5A9C0622CC689000461C37 /* VGG16ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A9C0522CC689000461C37 /* VGG16ViewController.swift */; };
+		DD5A9C0822CC68A000461C37 /* InceptionV3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A9C0722CC68A000461C37 /* InceptionV3ViewController.swift */; };
+		DD5A9C0A22CC68B600461C37 /* GoogLeNetPlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A9C0922CC68B600461C37 /* GoogLeNetPlacesViewController.swift */; };
+		DD5A9C0C22CC68C800461C37 /* OpenNSFWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A9C0B22CC68C800461C37 /* OpenNSFWViewController.swift */; };
+		DD5A9C0E22CC68DC00461C37 /* ResNet50ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A9C0D22CC68DC00461C37 /* ResNet50ViewController.swift */; };
+		DD5A9C1022CC698100461C37 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A9C0F22CC698100461C37 /* Utilities.swift */; };
+		DD5A9C1622CC69FE00461C37 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DD5A9C1122CC69FE00461C37 /* GoogLeNetPlaces.mlmodel */; };
+		DD5A9C1722CC69FE00461C37 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DD5A9C1222CC69FE00461C37 /* Inceptionv3.mlmodel */; };
+		DD5A9C1822CC69FE00461C37 /* VGG16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DD5A9C1322CC69FE00461C37 /* VGG16.mlmodel */; };
+		DD5A9C1922CC69FE00461C37 /* OpenNSFW.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DD5A9C1422CC69FE00461C37 /* OpenNSFW.mlmodel */; };
+		DD5A9C1A22CC69FE00461C37 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DD5A9C1522CC69FE00461C37 /* Resnet50.mlmodel */; };
+		DD5A9C1C22CCCB5E00461C37 /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A9C1B22CCCB5E00461C37 /* UIImage+CVPixelBuffer.swift */; };
 		DDEB418522C9DFBE00A3DD04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEB418422C9DFBE00A3DD04 /* AppDelegate.swift */; };
-		DDEB418722C9DFBE00A3DD04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEB418622C9DFBE00A3DD04 /* ViewController.swift */; };
 		DDEB418A22C9DFBE00A3DD04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDEB418822C9DFBE00A3DD04 /* Main.storyboard */; };
 		DDEB418C22C9DFBF00A3DD04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDEB418B22C9DFBF00A3DD04 /* Assets.xcassets */; };
 		DDEB418F22C9DFBF00A3DD04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDEB418D22C9DFBF00A3DD04 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD5A9C0522CC689000461C37 /* VGG16ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGG16ViewController.swift; sourceTree = "<group>"; };
+		DD5A9C0722CC68A000461C37 /* InceptionV3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InceptionV3ViewController.swift; sourceTree = "<group>"; };
+		DD5A9C0922CC68B600461C37 /* GoogLeNetPlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogLeNetPlacesViewController.swift; sourceTree = "<group>"; };
+		DD5A9C0B22CC68C800461C37 /* OpenNSFWViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenNSFWViewController.swift; sourceTree = "<group>"; };
+		DD5A9C0D22CC68DC00461C37 /* ResNet50ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResNet50ViewController.swift; sourceTree = "<group>"; };
+		DD5A9C0F22CC698100461C37 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		DD5A9C1122CC69FE00461C37 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = GoogLeNetPlaces.mlmodel; path = "../../../Documents/CoreML-Model/GoogLeNetPlaces.mlmodel"; sourceTree = "<group>"; };
+		DD5A9C1222CC69FE00461C37 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = "../../../Documents/CoreML-Model/Inceptionv3.mlmodel"; sourceTree = "<group>"; };
+		DD5A9C1322CC69FE00461C37 /* VGG16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = VGG16.mlmodel; path = "../../../Documents/CoreML-Model/VGG16.mlmodel"; sourceTree = "<group>"; };
+		DD5A9C1422CC69FE00461C37 /* OpenNSFW.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = OpenNSFW.mlmodel; path = "../../../Documents/CoreML-Model/OpenNSFW.mlmodel"; sourceTree = "<group>"; };
+		DD5A9C1522CC69FE00461C37 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Resnet50.mlmodel; path = "../../../Documents/CoreML-Model/Resnet50.mlmodel"; sourceTree = "<group>"; };
+		DD5A9C1B22CCCB5E00461C37 /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
 		DDEB418122C9DFBE00A3DD04 /* MachineLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MachineLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDEB418422C9DFBE00A3DD04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DDEB418622C9DFBE00A3DD04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DDEB418922C9DFBE00A3DD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDEB418B22C9DFBF00A3DD04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDEB418E22C9DFBF00A3DD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,8 +77,19 @@
 			isa = PBXGroup;
 			children = (
 				DDEB418422C9DFBE00A3DD04 /* AppDelegate.swift */,
-				DDEB418622C9DFBE00A3DD04 /* ViewController.swift */,
+				DD5A9C0522CC689000461C37 /* VGG16ViewController.swift */,
+				DD5A9C0722CC68A000461C37 /* InceptionV3ViewController.swift */,
+				DD5A9C0922CC68B600461C37 /* GoogLeNetPlacesViewController.swift */,
+				DD5A9C0B22CC68C800461C37 /* OpenNSFWViewController.swift */,
+				DD5A9C0D22CC68DC00461C37 /* ResNet50ViewController.swift */,
+				DD5A9C1B22CCCB5E00461C37 /* UIImage+CVPixelBuffer.swift */,
 				DDEB418822C9DFBE00A3DD04 /* Main.storyboard */,
+				DD5A9C0F22CC698100461C37 /* Utilities.swift */,
+				DD5A9C1122CC69FE00461C37 /* GoogLeNetPlaces.mlmodel */,
+				DD5A9C1222CC69FE00461C37 /* Inceptionv3.mlmodel */,
+				DD5A9C1422CC69FE00461C37 /* OpenNSFW.mlmodel */,
+				DD5A9C1522CC69FE00461C37 /* Resnet50.mlmodel */,
+				DD5A9C1322CC69FE00461C37 /* VGG16.mlmodel */,
 				DDEB418B22C9DFBF00A3DD04 /* Assets.xcassets */,
 				DDEB418D22C9DFBF00A3DD04 /* LaunchScreen.storyboard */,
 				DDEB419022C9DFBF00A3DD04 /* Info.plist */,
@@ -135,8 +168,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDEB418722C9DFBE00A3DD04 /* ViewController.swift in Sources */,
+				DD5A9C1922CC69FE00461C37 /* OpenNSFW.mlmodel in Sources */,
+				DD5A9C1C22CCCB5E00461C37 /* UIImage+CVPixelBuffer.swift in Sources */,
+				DD5A9C0C22CC68C800461C37 /* OpenNSFWViewController.swift in Sources */,
+				DD5A9C0622CC689000461C37 /* VGG16ViewController.swift in Sources */,
+				DD5A9C1622CC69FE00461C37 /* GoogLeNetPlaces.mlmodel in Sources */,
+				DD5A9C0A22CC68B600461C37 /* GoogLeNetPlacesViewController.swift in Sources */,
+				DD5A9C1722CC69FE00461C37 /* Inceptionv3.mlmodel in Sources */,
 				DDEB418522C9DFBE00A3DD04 /* AppDelegate.swift in Sources */,
+				DD5A9C1A22CC69FE00461C37 /* Resnet50.mlmodel in Sources */,
+				DD5A9C0822CC68A000461C37 /* InceptionV3ViewController.swift in Sources */,
+				DD5A9C1822CC69FE00461C37 /* VGG16.mlmodel in Sources */,
+				DD5A9C1022CC698100461C37 /* Utilities.swift in Sources */,
+				DD5A9C0E22CC68DC00461C37 /* ResNet50ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +327,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XS643X63Y;
 				INFOPLIST_FILE = MachineLearning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +346,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XS643X63Y;
 				INFOPLIST_FILE = MachineLearning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
